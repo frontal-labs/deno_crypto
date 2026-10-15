@@ -30,7 +30,7 @@ curve25519-dalek = "4.1.3"
 deno_core = "0.412.0"
 deno_crypto_provider = "0.53.0"
 deno_error = "=0.7.1"
-ecdsa = "0.16.9"
+ecdsa = "0.17.0"
 elliptic-curve = { version = "0.13.4", features = ["alloc", "arithmetic", "ecdh", "std", "pem", "jwk"] }
 fips203 = { version = "0.4.3", features = ["ml-kem-512", "ml-kem-768", "ml-kem-1024"] }
 fips205 = "0.4.1"
