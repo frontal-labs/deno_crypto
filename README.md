@@ -60,3 +60,7 @@ All WebCrypto entry points are implemented as methods on the `Crypto` /
 extension's `objects = [...]` list. There are no standalone ops; the
 per-algorithm helpers in `subtle_*.rs` are pure-Rust and called directly from
 those method bodies.
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for repository checks and pull request guidance.

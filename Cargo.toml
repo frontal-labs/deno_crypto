@@ -14,7 +14,7 @@ repository = "https://github.com/frontal-labs/deno_crypto"
 description = "Web Cryptography API implementation for Deno (Frontal Labs fork)"
 
 [lib]
-path = "lib.rs"
+path = "src/lib.rs"
 
 [dependencies]
 aes = "=0.8.3"

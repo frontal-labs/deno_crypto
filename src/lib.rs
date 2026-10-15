@@ -46,40 +46,73 @@ use sha3::Sha3_512;
 use signature::hazmat::PrehashSigner;
 use signature::hazmat::PrehashVerifier;
 
+#[path = "algorithms/algorithm.rs"]
 mod algorithm;
 mod crypto;
+#[path = "keys/crypto_key.rs"]
 mod crypto_key;
+#[path = "operations/decrypt.rs"]
 mod decrypt;
+#[path = "operations/digest.rs"]
 mod digest;
+#[path = "algorithms/ed25519.rs"]
 mod ed25519;
+#[path = "operations/encrypt.rs"]
 mod encrypt;
+#[path = "operations/export_key.rs"]
 mod export_key;
+#[path = "operations/generate_key.rs"]
 mod generate_key;
+#[path = "operations/import_key.rs"]
 mod import_key;
+#[path = "keys/key.rs"]
 mod key;
+#[path = "keys/key_store.rs"]
 mod key_store;
+#[path = "keys/make_key.rs"]
 mod make_key;
+#[path = "algorithms/mldsa.rs"]
 mod mldsa;
+#[path = "algorithms/mlkem.rs"]
 mod mlkem;
+#[path = "operations/node_interop.rs"]
 mod node_interop;
 mod shared;
+#[path = "algorithms/slhdsa.rs"]
 mod slhdsa;
+#[path = "subtle/subtle_crypto.rs"]
 mod subtle_crypto;
+#[path = "subtle/subtle_decrypt.rs"]
 mod subtle_decrypt;
+#[path = "subtle/subtle_derive_bits.rs"]
 mod subtle_derive_bits;
+#[path = "subtle/subtle_derive_key.rs"]
 mod subtle_derive_key;
+#[path = "subtle/subtle_encapsulate.rs"]
 mod subtle_encapsulate;
+#[path = "subtle/subtle_encapsulate_key.rs"]
 mod subtle_encapsulate_key;
+#[path = "subtle/subtle_encrypt.rs"]
 mod subtle_encrypt;
+#[path = "subtle/subtle_export_key.rs"]
 mod subtle_export_key;
+#[path = "subtle/subtle_generate_key.rs"]
 mod subtle_generate_key;
+#[path = "subtle/subtle_get_public_key.rs"]
 mod subtle_get_public_key;
+#[path = "subtle/subtle_import_key.rs"]
 mod subtle_import_key;
+#[path = "subtle/subtle_key.rs"]
 mod subtle_key;
+#[path = "subtle/subtle_sign.rs"]
 mod subtle_sign;
+#[path = "subtle/subtle_verify.rs"]
 mod subtle_verify;
+#[path = "subtle/subtle_wrap_key.rs"]
 mod subtle_wrap_key;
+#[path = "algorithms/x25519.rs"]
 mod x25519;
+#[path = "algorithms/x448.rs"]
 mod x448;
 
 pub use crate::decrypt::DecryptError;
